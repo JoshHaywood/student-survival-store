@@ -1,0 +1,188 @@
+# Documentation
+
+This file will document week by week the applications development process.
+
+Kanban board and User study are links to the relevant elements.
+Standups contains images of all in person stand up meetings.
+Concept presentation contains the intial presentation for the concept.
+
+## Week 7
+** Beginning 01/11/2021 **
+
+### Targets
+Decide what frameworks, package, libaries and languages to use for the application.
+General organisation of the repository.
+Convert existing pages into React.
+Set up express for the backend.
+Convert student news page to use .json.
+
+### On-going targets
+Some pages still need React conversion.
+Express has been set up in basics but no page routing has been implemented.
+Student news page requires that page routing be set up first.
+
+### Issues
+File naming conventions and repo organisation could create issues later on.
+
+### Resoulutions
+File names were updated and repo was organised to avoid this issue.
+
+### Completed targets
+Decided to use React and Tailwinds for the applications front end and Node.js and express for the backend.
+Repository has been organsied into application, documentation and main branches, with application contained subfolder for the back and front end.
+
+## Week 8
+** Beginning 08/11/2021 **
+
+### Targets
+Convert remaining pages to React.
+Create page routing system using Express.
+Link .json file to student news page
+Sign up and registering forms
+Database setup
+Animated side menu bar
+
+### On-going targets
+
+Only two pages need to be converted to React.
+Instead of .json file database table will be used for the student news page.
+Database has been intialised but has not yet been linked with the front end.
+Animated side menu has been created although it isnt responsive.
+
+### Issues
+Content managing of the news page, user creditentials and subscriptions.
+Transactions and payments.
+
+### Resolutions
+Content will be stored largely in SQL database with booleans to infer if the user has a subscription and what level of subscription.
+Store billing info from page and use snipcart for transaction.
+
+### Completed targets
+
+Page routing system was done through React rather than Express.
+Sign up and registering forms have been added with correct input validation.
+
+## Week 9
+** Beginning 15/11/2021 **
+
+### Targets
+User registration front end and adding to database.
+Login validation and ecryption.
+Session set-up.
+Mobile naviagation menu.
+
+### On-going targets
+Session set-up.
+
+### Issues
+No current issue found.
+
+### Resolutions
+N/A
+
+### Completed targets
+Mobile navigation menu is complete.
+User registeration and login validation complete.
+
+## Week 10
+** Beginning 22/11/2021 **
+
+### Targets
+set up subscription and feedback databases.
+Routing registering and logins to user dashboard.
+Dashboard popup.
+Eccomerece store.
+
+### On-going targets
+set up subscription and feedback databases.
+Routing registering and logins to user dashboard.
+Dashboard popup bug fix
+Eccomerece store.
+
+### Issues
+This week involved another modules hand in date and therefore decreased the work flow.
+This result in few tasks being completed fully although progress was still made towards the tasks overall.
+Dashboard pop up had small bugs involving the stylesheet.
+Eccomerece store will be addressed down the line as other tasks need to be completed first.
+
+### Resolutions
+The following week will not have this issue and therefore the work flow will increase back to the level it was.
+Tasks rolling on to the next week will be completed as part of the following week.
+Modal bug fix for dashboard will also be addressed in the following week.
+
+### Completed targets
+No tasks completed fully only partially.
+
+## Week 11
+** Beginning 29/11/2021 **
+
+### Targets
+set up subscription and feedback databases.
+Routing registering and logins to user dashboard.
+Dashboard popup bug fix.
+Eccomerce store.
+
+### On-going targets
+Functionally with the new subscription and feedback database to link to the front end.
+
+### Issues
+Minimal issue for Week 11
+
+### Resolutions
+N/A
+
+### Completed targets
+Dashboard popup bug fix is complete.
+Eccomerece store is complete.
+Subscription and feedback databases have been created.
+
+## Week 12
+** Beginning 06/12/2021 **
+
+### Targets
+Commenting throughout the project.
+Gathering data from user study.
+Optimisation for mobile.
+
+### On-going targets
+More comments have been added to the project although not complete.
+User study data form has been created but not sent out.
+Optimisation notes for mobile have been layed out.
+
+### Issues
+A lot of the mobile optimisation notes cannot be completed within the remianing timeframe of the project
+
+### Resolutions
+The more crutial optimisation will be made such as layout over minor optimisations for mobile.
+
+### Completed targets
+N/A
+
+## Week 13 - 14
+** Beginning 13/12/2021 **
+
+No major stand up meetings held during this week as this is the beginning of the winter break and therefore little to document.
+
+### On-going targets
+Progress has been made with the edit accounts page
+
+### Completed targets
+'Complete profile' page was completed as part of the user registery
+
+## Week 15
+** Beginning 27/12/2021 **
+
+### Targets
+Deploy application
+Collect user study data
+Complete powerpoint for Viva
+
+### On-going targets
+
+### Issues
+Issue with deployment struggling to use both project folder together instead of just the front end folder
+
+### Resolutions
+Trying to use other deployment software such as AWS. For the purpose of the user study just the front end will have to be used
+
+### Completed targets
