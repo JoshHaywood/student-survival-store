@@ -1,0 +1,29 @@
+:root {
+	@apply light;
+}
+
+.dark {
+	--color-bg-primary: #000000;
+	--color-fg-primary: #ffffff;
+	--color-accent-primary: rgb(52, 211, 153);
+}
+
+.light {
+	--color-bg-primary: #ffffff;
+	--color-fg-primary: #000000;
+	--color-accent-primary: rgb(52, 211, 153);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scrollbar-color: var(--color-accent-primary) transparent;
+}
+html::-webkit-scrollbar {
+	width: 0.8rem;
+}
+html::-webkit-scrollbar-thumb {
+	background-color: var(--color-accent-primary);
+}
