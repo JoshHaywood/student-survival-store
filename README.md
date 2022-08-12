@@ -1,5 +1,5 @@
 **Please note this project has been moved to this repo as its repo is inaccessible to users outside of the academic institution it was created under, therefore it will lack the relevant commit logs.**
-**Additionally note this was a group project and I do not take create for the concept. I take created for part of the front-end development and majoriety of documentation. As a result I have listed attributions below.**
+**Additionally note this was a group project and I do not take credit for the concept. I take credit for part of the front-end development and majoriety of documentation. As a result I have listed attributions below.**
 
 - Josh Haywood (Front-end, documentation) - https://www.joshhaywood-portfolio.com/
 - Yordan Hristov (Back-end) - https://www.dantcho.com/
