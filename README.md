@@ -1,31 +1,49 @@
-**Please note this project has been moved to this repo as its repo is inaccessible to users outside of the academic institution it was created under, therefore it will lack the relevant commit logs.**
-**Additionally note this was a group project and I do not take credit for the concept. I take credit for part of the front-end development and majoriety of documentation. As a result I have listed attributions below.**
+# Application
 
-- Josh Haywood (Front-end, documentation) - https://www.joshhaywood-portfolio.com/
-- Yordan Hristov (Back-end) - https://www.dantcho.com/
-- Louis Wright (Project lead, front-end, concept, remaining documentation) - https://www.louiswright.co.uk/
-- Danny Daley (Back-end) - https://dannydaley.co.uk 
+**All relevant files for the application are contained within this branch**
 
-# Student-Survival-Store
-Built by students, made for students
+URL: http://localhost:3000
+To start the project run gitbash inside the front-end and back-end folders and enter 'npm start'.
+If this errors delete the node modules folder run 'npm install' and try again.
 
-Primary a SAAS, goods, print and product marketing platform built by students for students across all disciplines.
+Front end folder contains all relevant files for the front end.
 
-Filling a gap in the market for an engaging and highly discounted commerce and marketing solution for brands to market directly to students via, subscription box packages, products listed in online catalogue, direct email marketing and through social media. 
+Back end folder contains all relevant files for the back end.
 
-Within the user dashboard the customer will be able to leave a review and rate each individual product they receive and submit a photo of themselves with the product if they wish, which will in turn for each submission after review, credit their account with SSS coins that may be collected and spent on direct purchases from the online catalogue. This will allow brands to quickly receive honest and genuine reviews of their products that they can use to improve the product or use online. The terms for photo submission of the customer with the product will be copyright of SSS at the point of submission which will open UGC marketing options for brands on a low cost, typically gifted basis. 
+# User guide
 
-Created by Danny Daley, Josh Haywood, Louis Wright and Yordan Hristov.
+** Consult 'NPM Guide.md' for detailings of the features of NPM as given by NPM themselves **
 
-# Builds and releases
+## Requirments
 
-Builds and releases will be contained within the builds folder in the format (0.0.0) with the latest build being the highest of these values or most recent push.
+Node.js installation: https://nodejs.org/en/download/
+Integrated development enviroment (Recommend Visual Studio Code:) https://code.visualstudio.com/download
+Command line interface (Recommend GIT bash) https://git-scm.com/downloads
+A file manager (Recommend file explorer if you use Windows as it is pre installed)
+A web browser (Recommend Google Chrome or Edge or Firefox)
 
-# Application Branch
+## Start-up guide
 
-This contains all relevant files with the application of the project.
-** User guide instructions for the project are contained here **
+Download the project as a zip or clone the project from: https://github.falmouth.ac.uk/LW254830/Student-Survival-Store.
 
-# Documentation Branch
+If you have downloaded the project, extract the zip folder to your files or if you have cloned the project, clone the project to your files.
 
-This contains all relevant files regarding the documentation of the project.
+Open the entire project folder in Visual Studio Code using: file open folder, then open the project where you have stored it.
+
+Then separately in a file manager open the 'front-end' folder in the project.
+
+Right click and choose 'Git bash here' this will open a Git bash interface.
+
+Alternatively use the terminal in Visual Studio Code and cd into the front end folder.
+
+In Git bash run 'npm install' and the 'npm start'
+
+Complete this same process for the 'back-end' folder as you did the for 'front-end' folder.
+
+You should now have two instances of Git bash running out of the 'front-end' and 'back-end' folders.
+
+If the craco package hasnt automatically done this open a web browser.
+
+In the web browser input the url: http://localhost:3000/
+
+The website should appear under that URL and the start up is complete.
